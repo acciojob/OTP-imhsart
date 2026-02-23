@@ -14,7 +14,7 @@ function onKeyDown(e){
 
 	if(e.key === 'Backspace'){
 		if(curr.value === '' && prev){
-			prev.focused()
+			prev.focus()
 		}
 		return
 	}
@@ -32,6 +32,6 @@ function onInput(e){
 	let next = curr.nextElementSibling
 
 	if(curr.value.length === 1 && next){
-		next.focused()
+		next.focus()
 	}
 }
