@@ -1,6 +1,6 @@
 //your JS code here. If required.
 let inputs = document.querySelectorAll('.code')
-
+inputs[0].focus()
 inputs.forEach((i)=> {
 	i.addEventListener('keydown', onKeyDown)
 	i.addEventListener('input', onInput)
