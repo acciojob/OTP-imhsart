@@ -1,1 +1,48 @@
 /*  your css code here. If applicable */
+/*  your css code here. If applicable */
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+}
+body{
+	border: 2px solid black;
+	padding: 30px;
+	border-radius: 10px;
+	text-align: center;
+	margin: 10px;
+}
+#verification_heading{
+	margin: 20px;
+}
+#verification_subtext{
+	color: #8F8F8F;
+}
+.code-container{
+	display: flex;
+	margin-inline: auto;
+	column-gap: 20px;
+	width: fit-content;
+	margin-block: 50px;
+}
+.code{
+	width: 120px;
+	height: 140px;
+	border-radius:5px;
+	border: 1px solid #EEEEEE;
+	text-align: center;
+	font-size: 5rem;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button{
+	appearance:none
+}
+#note{
+	background-color: #F8F8F8;
+	padding: 12px;
+	border-radius: 5px;
+	width: 500px;
+	margin-inline: auto;
+	color: #8F8F8F;
+}
